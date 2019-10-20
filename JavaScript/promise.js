@@ -19,5 +19,7 @@ function get(url) {
     req.onerror = function() {
       reject(new Error(req.statusText))
     }
+
+    req.send()
   })
 }
