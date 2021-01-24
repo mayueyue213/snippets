@@ -1,0 +1,55 @@
+{
+  "debugger": {
+		"prefix": "de",
+		"body": [
+			"debugger; // eslint-disable-line"
+		]
+  },
+  "Eslint disabled": {
+		"prefix": "es",
+		"body": [
+			"// eslint-disable-line"
+		]
+  },
+  "Eslint disabled next line": {
+		"prefix": "es-next",
+		"body": [
+      "// eslint-disable-next-line"
+		]
+	},
+	"log": {
+		"prefix": "log",
+		"body": [
+			"console.log($1);"
+		]
+	},
+	"Add a record": {
+		"prefix": "rec",
+		"body": [
+			"// desc: "
+		]
+	},
+	"Add a todo": {
+		"prefix": "to",
+		"body": [
+			"TODO: $1"
+		]
+  },
+
+	"The For loop": {
+		"prefix": "for",
+		"body": [
+			"for (let i = 0, len = $1.length; i < len; i++) {",
+			"  $2",
+			"}"
+		]
+	},
+	"The While loop": {
+		"prefix": "while",
+		"body": [
+			"while ($1) {",
+			"  $2",
+			"}"
+		]
+	},
+}

@@ -1,0 +1,93 @@
+{
+	"Default Props Boolean": {
+		"prefix": "prop-b",
+		"body": [
+			"$1: {",
+			"  type: Boolean,",
+			"  default: false",
+			"}"
+		]
+	},
+	"Default Props Object": {
+		"prefix": "prop-o",
+		"body": [
+			"{",
+			"  type: Object,",
+			"  default() {",
+			"    return {};",
+			"  }",
+			"}"
+		]
+	},
+	"Default Props Array": {
+		"prefix": "prop-a",
+		"body": [
+			"{",
+			"  type: Array,",
+			"  default() {",
+			"    return [];",
+			"  }",
+			"}"
+		]
+	},
+	"Default Props String": {
+		"prefix": "prop-s",
+		"body": [
+			"{",
+			"  type: String,",
+			"  default: ''",
+			"}"
+		]
+	},
+	"Default Props Number": {
+		"prefix": "prop-n",
+		"body": [
+			"{",
+			"  type: Number,",
+			"  default: ''",
+			"}"
+		]
+	},
+	"Default Vue Data": {
+		"prefix": "data",
+		"body": [
+			"data() {",
+			"  return {",
+			"  };",
+			"},"
+		]
+	},
+	"Default Vue Components": {
+		"prefix": "comp",
+		"body": [
+			"components: {",
+			"},"
+		]
+	},
+	"debugger": {
+		"prefix": "de",
+		"body": [
+			"debugger; // eslint-disable-line"
+		]
+	},
+	"Color white": {
+		"prefix": "cf",
+		"body": "color: #fff;"
+	},
+	"Color black": {
+		"prefix": "c0",
+		"body": "color: #000;"
+	},
+	"Background white": {
+		"prefix": "bgf",
+		"body": "background: #fff"
+	},
+	"Background black": {
+		"prefix": "bgf",
+		"body": "background: #000"
+	},
+	"Export default": {
+		"prefix": "ex",
+		"body": "export default "
+	}
+}
